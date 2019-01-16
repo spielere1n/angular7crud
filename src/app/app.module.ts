@@ -27,7 +27,9 @@ import { BusinessService } from './business.service';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [BusinessService],
+  providers: [
+    BusinessService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
